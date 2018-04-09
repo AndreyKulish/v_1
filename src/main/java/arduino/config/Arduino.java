@@ -6,6 +6,9 @@ public class Arduino {
     private ArduinoPortReader arduinoPortReader;
     private ArduinoStart arduinoStart;
 
+    public Arduino(){
+    }
+
     public Arduino(String portName) throws Exception {
         this.portName = portName;
         arduinoStart = new ArduinoStart(portName);

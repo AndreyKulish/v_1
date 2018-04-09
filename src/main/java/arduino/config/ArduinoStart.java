@@ -7,6 +7,9 @@ public class ArduinoStart {
     private SerialPort serialPort;
     private String portName;
 
+    public ArduinoStart(){
+    }
+
     public ArduinoStart(String portName) {
         this.portName = portName;
     }

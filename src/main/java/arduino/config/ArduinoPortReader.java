@@ -9,6 +9,8 @@ public class ArduinoPortReader implements SerialPortEventListener {
     private SerialPort serialPort;
     private String data = "";
 
+    public ArduinoPortReader(){
+    }
 
     public void setData(String data) {
         this.data = data;
